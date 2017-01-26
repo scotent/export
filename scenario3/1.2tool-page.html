@@ -16,12 +16,13 @@
 
     <!-- Custom styles for this template -->
     <link href="css/starter-template.css" rel="stylesheet">
+    <link href="css/exports-wizard.css" rel="stylesheet">
 
   </head>
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -47,23 +48,28 @@
 
     <div class="container">
 
-      <div class="content-template">
+      <div class="starter-template text-center">
        <h1>Tell us more</h1>
          <p class="lead">Help us find the right customers for your business. </p>
           <p><strong>I'm looking for customers ...</strong></p>
-      <section class ="form-container">
-	      <form action="completed()" method="get">
-			  <ul class="se_radio">
-			  <li><input type="radio" name="gender" id="male" value="male"> In the UK</li>			  
-			  <li><input type="radio" name="gender" id="other" value="other"> Overseas</li>
-		
-			  </ul>
-			  
-	      </form>
-      </section>
+            <div class="row">
+              <div class="col-xs-6 col-sm-3 col-sm-offset-3">
+                <a href="#" class="toggle-location">
+                  <img src="images/united-kingdom.svg" alt="United Kingdom">
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-3">
+                <a href="#" class="toggle-location">
+                  <img src="images/worldwide.svg" alt="United Kingdom">
+                </a>
+              </div>
+      
+            </div>
        </br> </br>
-     <a href="1.1scotent-home.html" class="back-link">Back</a>
-    <button id="primary" onClick="parent.location='1.3about-your-business.html'">Next</button></button>
+              <div class="actions text-center">
+                <a href="index.html" class="back-link">Back</a>
+                <button id="primary" onClick="parent.location='1.3about-your-business.html'">Next</button>
+              </div>
     </div><!-- /.container -->
       </div>
     <div class="container">
@@ -76,6 +82,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/export-wizard.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>

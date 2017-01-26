@@ -16,12 +16,13 @@
 
     <!-- Custom styles for this template -->
     <link href="css/starter-template.css" rel="stylesheet">
+    <link href="css/exports-wizard.css" rel="stylesheet">
 
   </head>
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -47,54 +48,94 @@
 
     <div class="container">
 
-      <div class="content-template">
+      <div class="starter-template">
        <h1>Great – we can tailor this further for you. </h1>
          <p class="lead">Tell us more about your business. </p>
 
-      <section class ="form-container">
-      	   <form action="completed()" method="get">
-			  <ul class="se_radio">
-			  <li><input type="radio" name="gender" id="male" value="male" checked="checked"> I am located in Scotland</li>			  
-		  </ul>
-	      </form>
 	      
-	      <p><strong>I sell ...</strong></p>
-	      <form action="completed()" method="get">
-			  <ul class="se_radio">
-			  <li><input type="radio" name="gender" id="male" value="male"> Products</li>			  
-			  <li><input type="radio" name="gender" id="other" value="other"> Services</li>
+	      <section class="about-business">
+  	      
+  	      <p><strong>I sell ...</strong></p>
+  
+          <div class="btn-group" data-toggle="buttons">
+            <label class="btn btn-default">
+              <input type="radio" name="options" id="option1"> Products
+            </label>
+            <label class="btn btn-default">
+              <input type="radio" name="options" id="option2"> Services
+            </label>
+          </div>
+          
+	      </section>
+
+
+	      <section class="about-business">
+  	      <p><strong>Which industries do you trade in?</strong></p>
+
+          <div class="btn-group" data-toggle="buttons">
+            <label class="btn btn-default industry">
+              <input type="radio" name="options" id="industryOption1"> Aerospace, defence and marine
+            </label>
+            <label class="btn btn-default industry">
+              <input type="radio" name="options" id="industryOption2"> Chemical sciences
+            </label>
+            <label class="btn btn-default industry">
+              <input type="radio" name="options" id="industryOption3"> Creative industries
+            </label>
+            <label class="btn btn-default industry">
+              <input type="radio" name="options" id="industryOption4"> Financial services
+            </label>
+            <label class="btn btn-default industry">
+              <input type="radio" name="options" id="industryOption5"> Food and drink
+            </label>
+            <label class="btn btn-default industry">
+              <input type="radio" name="options" id="industryOption6"> Life sciences
+            </label>
+            <label class="btn btn-default industry">
+              <input type="radio" name="options" id="industryOption7"> Manufacturing
+            </label>
+            <label class="btn btn-default" id="other">
+              <input type="radio" name="other"> Other
+            </label>
+          </div>
+          
+          <br><br>
+
+          
+	      <form id="otherForm" action="completed()" method="get">
+			  <label>None of the above (tell us your industry)</label><br>
+			  <div class="row">
+			  <div class="col-sm-4">
+			  <textarea class="form-control"></textarea>
+			  </div>
+			  </div>
 			  </ul>
 	      </form>
+
+	      </section>
 	      
-	      <p><strong>Which industries do you trade in?</strong></p>
-	      <form action="completed()" method="get">
-			  <ul class="se_radio">
-			  <li><input type="radio" name="gender" id="male" value="male"> Aerospace, defence and marine</li>			  
-			  <li><input type="radio" name="gender" id="other" value="other"> Chemical sciences</li>
-			  <li><input type="radio" name="gender" id="other" value="other"> Creative industries</li>
-			  <li><input type="radio" name="gender" id="other" value="other"> Financial services</li>
-			  <li><input type="radio" name="gender" id="other" value="other"> Food and drink</li>
-			  <li><input type="radio" name="gender" id="other" value="other"> Life sciences</li>
-			  <li><input type="radio" name="gender" id="other" value="other"> Manufacturing</li>
-			  
-			  <li><input type="radio" name="gender" id="other" value="other"> None of the above (tell us your industry)</li>
-			  <input></input>
-			  </ul>
-	      </form>
-	      
+	      <section class="about-business">
+
 	      <p><strong>Do you have any previous experience of selling overseas?</strong></p>
-	      <form action="completed()" method="get">
-			  <ul class="se_radio">
-			  <li><input type="radio" name="gender" id="male" value="male"> None</li>			  
-			  <li><input type="radio" name="gender" id="other" value="other"> Some</li>
-			  <li><input type="radio" name="gender" id="other" value="other"> Lots</li>
-			  </ul>
-	      </form>
+          <div class="btn-group" data-toggle="buttons">
+            <label class="btn btn-default">
+              <input type="radio" name="options" id="option1"> None
+            </label>
+            <label class="btn btn-default">
+              <input type="radio" name="options" id="option2"> Some
+            </label>
+            <label class="btn btn-default">
+              <input type="radio" name="options" id="option3"> Lots
+            </label>
+          </div>
+        
+	      </section>
 	      
-      </section>
        </br> </br>
-     <a href="1.1scotent-home.html" class="back-link">Back</a>
-    <button id="primary" onClick="parent.location='1.4results.html'">Next</button></button>
+       <div class="actions text-center">
+         <a href="1.1scotent-home.html" class="back-link">Back</a>
+         <button id="primary" onClick="parent.location='1.4results.html'">Next</button>
+       </div>
     </div><!-- /.container -->
       </div>
     <div class="container">
@@ -107,6 +148,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/export-wizard.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
