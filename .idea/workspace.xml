@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c07307ca-0512-4e09-bc65-3c84c25e9723" name="Default" comment="">
+<<<<<<< Updated upstream
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenario2/how-we-can-help.html" afterPath="$PROJECT_DIR$/scenario2/how-we-can-help.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenario1/trading-in-france.html" afterPath="$PROJECT_DIR$/scenario1/trading-in-france.html" />
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,6 +32,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< Updated upstream
       <file leaf-file-name="how-we-can-help.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scenario2/how-we-can-help.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,9 +102,23 @@
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scenario3/index.html">
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scenario1/index.html">
+>>>>>>> Stashed changes
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="2055">
               <caret line="18" column="57" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trading-in-france.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scenario1/trading-in-france.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -113,6 +132,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/scenario1/index.html" />
         <option value="$PROJECT_DIR$/scenario1/trading-in-france.html" />
         <option value="$PROJECT_DIR$/scenario1/online-account.html" />
@@ -124,6 +144,9 @@
         <option value="$PROJECT_DIR$/scenario2/index.html" />
         <option value="$PROJECT_DIR$/scenario2/about-you.html" />
         <option value="$PROJECT_DIR$/scenario2/how-we-can-help.html" />
+=======
+        <option value="$PROJECT_DIR$/scenario1/trading-in-france.html" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -133,7 +156,12 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< Updated upstream
     <option name="y" value="27" />
+=======
+    <option name="x" value="-1" />
+    <option name="y" value="23" />
+>>>>>>> Stashed changes
     <option name="width" value="1280" />
     <option name="height" value="725" />
   </component>
@@ -307,7 +335,7 @@
       <created>1485445568419</created>
       <option name="number" value="Default" />
       <updated>1485445568419</updated>
-      <workItem from="1485445570770" duration="348000" />
+      <workItem from="1485445570770" duration="2026000" />
     </task>
     <task id="LOCAL-00001" summary="Various fixes">
       <created>1485469650767</created>
@@ -325,11 +353,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348000" />
+    <option name="totallyTimeSpent" value="2026000" />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="0" y="27" width="1280" height="725" extended-state="0" />
     <editor active="true" />
+=======
+    <frame x="-1" y="23" width="1280" height="773" extended-state="6" />
+    <editor active="false" />
+>>>>>>> Stashed changes
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -470,6 +503,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/scenario1/how-we-can-help.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.625" vertical-offset="996" max-vertical-offset="1800">
@@ -508,6 +542,13 @@
           <folding>
             <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/scenario1/trading-in-france.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          <folding />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
